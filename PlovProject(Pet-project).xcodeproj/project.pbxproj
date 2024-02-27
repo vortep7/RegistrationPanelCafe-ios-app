@@ -16,6 +16,9 @@
 		1752D0F52B8DB4C300CD4169 /* PlovProject_Pet_project_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D0F42B8DB4C300CD4169 /* PlovProject_Pet_project_Tests.swift */; };
 		1752D0FF2B8DB4C300CD4169 /* PlovProject_Pet_project_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D0FE2B8DB4C300CD4169 /* PlovProject_Pet_project_UITests.swift */; };
 		1752D1012B8DB4C300CD4169 /* PlovProject_Pet_project_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D1002B8DB4C300CD4169 /* PlovProject_Pet_project_UITestsLaunchTests.swift */; };
+		1752D10F2B8DB56300CD4169 /* NetworkImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D10E2B8DB56300CD4169 /* NetworkImageService.swift */; };
+		1752D1122B8DB57500CD4169 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1752D1112B8DB57500CD4169 /* Alamofire */; };
+		1752D1162B8DB92700CD4169 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D1152B8DB92700CD4169 /* GeneralView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		1752D0FA2B8DB4C300CD4169 /* PlovProject(Pet-project)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlovProject(Pet-project)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1752D0FE2B8DB4C300CD4169 /* PlovProject_Pet_project_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlovProject_Pet_project_UITests.swift; sourceTree = "<group>"; };
 		1752D1002B8DB4C300CD4169 /* PlovProject_Pet_project_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlovProject_Pet_project_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1752D10E2B8DB56300CD4169 /* NetworkImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageService.swift; sourceTree = "<group>"; };
+		1752D1152B8DB92700CD4169 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1752D1122B8DB57500CD4169 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +105,11 @@
 		1752D0DC2B8DB4C200CD4169 /* PlovProject(Pet-project) */ = {
 			isa = PBXGroup;
 			children = (
+				1752D1142B8DB8EB00CD4169 /* Controllers */,
+				1752D1132B8DB8DE00CD4169 /* View */,
+				1752D10D2B8DB54000CD4169 /* Service */,
 				1752D0DD2B8DB4C200CD4169 /* AppDelegate.swift */,
 				1752D0DF2B8DB4C200CD4169 /* SceneDelegate.swift */,
-				1752D0E12B8DB4C200CD4169 /* ViewController.swift */,
 				1752D0E32B8DB4C200CD4169 /* Main.storyboard */,
 				1752D0E62B8DB4C300CD4169 /* Assets.xcassets */,
 				1752D0E82B8DB4C300CD4169 /* LaunchScreen.storyboard */,
@@ -127,6 +135,30 @@
 			path = "PlovProject(Pet-project)UITests";
 			sourceTree = "<group>";
 		};
+		1752D10D2B8DB54000CD4169 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1752D10E2B8DB56300CD4169 /* NetworkImageService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1752D1132B8DB8DE00CD4169 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1752D1152B8DB92700CD4169 /* GeneralView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1752D1142B8DB8EB00CD4169 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1752D0E12B8DB4C200CD4169 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +175,9 @@
 			dependencies = (
 			);
 			name = "PlovProject(Pet-project)";
+			packageProductDependencies = (
+				1752D1112B8DB57500CD4169 /* Alamofire */,
+			);
 			productName = "PlovProject(Pet-project)";
 			productReference = 1752D0DA2B8DB4C200CD4169 /* PlovProject(Pet-project).app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +250,9 @@
 				Base,
 			);
 			mainGroup = 1752D0D12B8DB4C200CD4169;
+			packageReferences = (
+				1752D1102B8DB57500CD4169 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 1752D0DB2B8DB4C200CD4169 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,6 +298,8 @@
 			files = (
 				1752D0E22B8DB4C200CD4169 /* ViewController.swift in Sources */,
 				1752D0DE2B8DB4C200CD4169 /* AppDelegate.swift in Sources */,
+				1752D10F2B8DB56300CD4169 /* NetworkImageService.swift in Sources */,
+				1752D1162B8DB92700CD4169 /* GeneralView.swift in Sources */,
 				1752D0E02B8DB4C200CD4169 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -607,6 +647,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1752D1102B8DB57500CD4169 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1752D1112B8DB57500CD4169 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1752D1102B8DB57500CD4169 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1752D0D22B8DB4C200CD4169 /* Project object */;
 }
