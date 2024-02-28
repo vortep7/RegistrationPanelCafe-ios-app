@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171E2FFD2B8DFFD40027EA52 /* URLAdress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E2FFC2B8DFFD40027EA52 /* URLAdress.swift */; };
+		171E30032B8E01950027EA52 /* ExtensionFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E30022B8E01950027EA52 /* ExtensionFirstView.swift */; };
+		173A70B32B8E61EE0059904D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A70B22B8E61EE0059904D /* LogInViewController.swift */; };
+		173A70B52B8E62210059904D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A70B42B8E62210059904D /* SignInViewController.swift */; };
+		173A70B72B8E65AB0059904D /* ExtensionForSignLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A70B62B8E65AB0059904D /* ExtensionForSignLog.swift */; };
 		1752D0DE2B8DB4C200CD4169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D0DD2B8DB4C200CD4169 /* AppDelegate.swift */; };
 		1752D0E02B8DB4C200CD4169 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D0DF2B8DB4C200CD4169 /* SceneDelegate.swift */; };
 		1752D0E22B8DB4C200CD4169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D0E12B8DB4C200CD4169 /* ViewController.swift */; };
-		1752D0E52B8DB4C200CD4169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1752D0E32B8DB4C200CD4169 /* Main.storyboard */; };
 		1752D0E72B8DB4C300CD4169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1752D0E62B8DB4C300CD4169 /* Assets.xcassets */; };
 		1752D0EA2B8DB4C300CD4169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1752D0E82B8DB4C300CD4169 /* LaunchScreen.storyboard */; };
 		1752D0F52B8DB4C300CD4169 /* PlovProject_Pet_project_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D0F42B8DB4C300CD4169 /* PlovProject_Pet_project_Tests.swift */; };
@@ -18,7 +22,8 @@
 		1752D1012B8DB4C300CD4169 /* PlovProject_Pet_project_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D1002B8DB4C300CD4169 /* PlovProject_Pet_project_UITestsLaunchTests.swift */; };
 		1752D10F2B8DB56300CD4169 /* NetworkImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D10E2B8DB56300CD4169 /* NetworkImageService.swift */; };
 		1752D1122B8DB57500CD4169 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1752D1112B8DB57500CD4169 /* Alamofire */; };
-		1752D1162B8DB92700CD4169 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752D1152B8DB92700CD4169 /* GeneralView.swift */; };
+		17C3336D2B8F78F100A158FB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3336C2B8F78F100A158FB /* MenuViewController.swift */; };
+		17C3336F2B8F7BD200A158FB /* ExtensionMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3336E2B8F7BD200A158FB /* ExtensionMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171E2FFC2B8DFFD40027EA52 /* URLAdress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLAdress.swift; sourceTree = "<group>"; };
+		171E30022B8E01950027EA52 /* ExtensionFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFirstView.swift; sourceTree = "<group>"; };
+		173A70B22B8E61EE0059904D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		173A70B42B8E62210059904D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		173A70B62B8E65AB0059904D /* ExtensionForSignLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForSignLog.swift; sourceTree = "<group>"; };
 		1752D0DA2B8DB4C200CD4169 /* PlovProject(Pet-project).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlovProject(Pet-project).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1752D0DD2B8DB4C200CD4169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1752D0DF2B8DB4C200CD4169 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1752D0E12B8DB4C200CD4169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1752D0E42B8DB4C200CD4169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1752D0E62B8DB4C300CD4169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1752D0E92B8DB4C300CD4169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1752D0EB2B8DB4C300CD4169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +62,8 @@
 		1752D0FE2B8DB4C300CD4169 /* PlovProject_Pet_project_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlovProject_Pet_project_UITests.swift; sourceTree = "<group>"; };
 		1752D1002B8DB4C300CD4169 /* PlovProject_Pet_project_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlovProject_Pet_project_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1752D10E2B8DB56300CD4169 /* NetworkImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageService.swift; sourceTree = "<group>"; };
-		1752D1152B8DB92700CD4169 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		17C3336C2B8F78F100A158FB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		17C3336E2B8F7BD200A158FB /* ExtensionMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171E2FFB2B8DFFBB0027EA52 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				1752D10E2B8DB56300CD4169 /* NetworkImageService.swift */,
+				171E2FFC2B8DFFD40027EA52 /* URLAdress.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		171E30012B8E017E0027EA52 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				171E30022B8E01950027EA52 /* ExtensionFirstView.swift */,
+				173A70B62B8E65AB0059904D /* ExtensionForSignLog.swift */,
+				17C3336E2B8F7BD200A158FB /* ExtensionMenuController.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		171E30042B8E0A080027EA52 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1752D0DF2B8DB4C200CD4169 /* SceneDelegate.swift */,
+				1752D0DD2B8DB4C200CD4169 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		171E30052B8E0A2E0027EA52 /* SupportingsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1752D0EB2B8DB4C300CD4169 /* Info.plist */,
+				1752D0E82B8DB4C300CD4169 /* LaunchScreen.storyboard */,
+				1752D0E62B8DB4C300CD4169 /* Assets.xcassets */,
+			);
+			path = SupportingsFiles;
+			sourceTree = "<group>";
+		};
 		1752D0D12B8DB4C200CD4169 = {
 			isa = PBXGroup;
 			children = (
@@ -105,15 +153,11 @@
 		1752D0DC2B8DB4C200CD4169 /* PlovProject(Pet-project) */ = {
 			isa = PBXGroup;
 			children = (
+				171E30052B8E0A2E0027EA52 /* SupportingsFiles */,
+				171E30042B8E0A080027EA52 /* Application */,
 				1752D1142B8DB8EB00CD4169 /* Controllers */,
 				1752D1132B8DB8DE00CD4169 /* View */,
 				1752D10D2B8DB54000CD4169 /* Service */,
-				1752D0DD2B8DB4C200CD4169 /* AppDelegate.swift */,
-				1752D0DF2B8DB4C200CD4169 /* SceneDelegate.swift */,
-				1752D0E32B8DB4C200CD4169 /* Main.storyboard */,
-				1752D0E62B8DB4C300CD4169 /* Assets.xcassets */,
-				1752D0E82B8DB4C300CD4169 /* LaunchScreen.storyboard */,
-				1752D0EB2B8DB4C300CD4169 /* Info.plist */,
 			);
 			path = "PlovProject(Pet-project)";
 			sourceTree = "<group>";
@@ -138,7 +182,7 @@
 		1752D10D2B8DB54000CD4169 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				1752D10E2B8DB56300CD4169 /* NetworkImageService.swift */,
+				171E2FFB2B8DFFBB0027EA52 /* NetworkService */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -146,7 +190,7 @@
 		1752D1132B8DB8DE00CD4169 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1752D1152B8DB92700CD4169 /* GeneralView.swift */,
+				171E30012B8E017E0027EA52 /* extensions */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +199,9 @@
 			isa = PBXGroup;
 			children = (
 				1752D0E12B8DB4C200CD4169 /* ViewController.swift */,
+				173A70B22B8E61EE0059904D /* LogInViewController.swift */,
+				173A70B42B8E62210059904D /* SignInViewController.swift */,
+				17C3336C2B8F78F100A158FB /* MenuViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -271,7 +318,6 @@
 			files = (
 				1752D0EA2B8DB4C300CD4169 /* LaunchScreen.storyboard in Resources */,
 				1752D0E72B8DB4C300CD4169 /* Assets.xcassets in Resources */,
-				1752D0E52B8DB4C200CD4169 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +345,13 @@
 				1752D0E22B8DB4C200CD4169 /* ViewController.swift in Sources */,
 				1752D0DE2B8DB4C200CD4169 /* AppDelegate.swift in Sources */,
 				1752D10F2B8DB56300CD4169 /* NetworkImageService.swift in Sources */,
-				1752D1162B8DB92700CD4169 /* GeneralView.swift in Sources */,
+				17C3336D2B8F78F100A158FB /* MenuViewController.swift in Sources */,
+				173A70B32B8E61EE0059904D /* LogInViewController.swift in Sources */,
+				173A70B52B8E62210059904D /* SignInViewController.swift in Sources */,
+				171E30032B8E01950027EA52 /* ExtensionFirstView.swift in Sources */,
+				17C3336F2B8F7BD200A158FB /* ExtensionMenuController.swift in Sources */,
+				173A70B72B8E65AB0059904D /* ExtensionForSignLog.swift in Sources */,
+				171E2FFD2B8DFFD40027EA52 /* URLAdress.swift in Sources */,
 				1752D0E02B8DB4C200CD4169 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1752D0E32B8DB4C200CD4169 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1752D0E42B8DB4C200CD4169 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1752D0E82B8DB4C300CD4169 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -484,10 +528,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z96X7GW9YS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PlovProject(Pet-project)/Info.plist";
+				INFOPLIST_FILE = "PlovProject(Pet-project)/SupportingsFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,10 +555,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z96X7GW9YS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PlovProject(Pet-project)/Info.plist";
+				INFOPLIST_FILE = "PlovProject(Pet-project)/SupportingsFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
